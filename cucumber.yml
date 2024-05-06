@@ -1,0 +1,5 @@
+web:  --no-source --color -p pretty -p html_report -p json_report
+
+pretty: --format pretty
+html_report: --format html --out=reports/report.html
+json_report: --format json --out=reports/report.json

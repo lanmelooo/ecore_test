@@ -1,0 +1,17 @@
+# credentials.yml
+
+default:
+  user: 'demouser'
+  password: 'abc123'
+
+invalid_user1:
+  user: 'Demouser'
+  password: 'abc123'
+
+invalid_user2:
+  user: 'demouser_'
+  password: 'xyz'
+  
+invalid_user3:
+  user: 'demouser'
+  password: 'nananana'
